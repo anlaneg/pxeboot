@@ -1,0 +1,2 @@
+root/initrd.img http://mirror.centos.org/centos/7/os/x86_64/images/pxeboot/initrd.img
+root/vmlinuz http://mirror.centos.org/centos/7/os/x86_64/images/pxeboot/vmlinuz
