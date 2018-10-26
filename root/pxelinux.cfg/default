@@ -11,7 +11,7 @@ menu title Boot Menu
 label install
   menu label ^Install OS
   kernel vmlinuz
-  append initrd=initrd.img 
+  append initrd=initrd.img ks=ftp://10.10.10.10/ks.cfg inst.repo=ftp://10.10.10.10/cdroom/ ip=dhcp
 
 label local
   menu label Boot from ^local drive
