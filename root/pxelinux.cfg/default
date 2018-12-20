@@ -3,8 +3,9 @@ prompt 0
 noescape 1
 allowoptions 1
 #wait 5 second
-timeout 50
-ontimeout install
+timeout 300
+#ontimeout install
+ontimeout local
 
 menu title Boot Menu
 
